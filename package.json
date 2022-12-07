@@ -1,0 +1,30 @@
+{
+  "name": "realtimechatapplication",
+  "version": "1.0.0",
+  "description": "This is a realtime chat application made with the help of node.js, express and socket.io, that's it, have fun using it",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "chat",
+    "realtimechat",
+    "chatbox",
+    "mongo",
+    "node",
+    "express",
+    "socket.io",
+    "socket"
+  ],
+  "author": "Siddharth Pathak",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
